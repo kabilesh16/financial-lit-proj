@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Financial Literacy</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Basic Financial Literacy</h1>
+        <nav>
+            <ul>
+                <li><a href="#budgeting">Budgeting</a></li>
+                <li><a href="#saving">Saving</a></li>
+                <li><a href="#investing">Investing</a></li>
+                <li><a href="#tax-calculator">Tax Calculator</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="budgeting" class="section">
+            <h2>Budgeting</h2>
+            <p>Budgeting is the process of creating a plan to spend your money. This spending plan is called a budget. Creating this spending plan allows you to determine in advance whether you will have enough money to do the things you need to do or would like to do.</p>
+            <h3>Why Budget?</h3>
+            <p>Budgeting helps you:</p>
+            <ul>
+                <li>Manage your money effectively</li>
+                <li>Save for future goals</li>
+                <li>Prevent unnecessary debt</li>
+                <li>Prepare for emergencies</li>
+            </ul>
+        </section>
+
+        <section id="saving" class="section">
+            <h2>Saving</h2>
+            <p>Saving money involves setting aside a portion of your income for future use. This can help you achieve financial goals, prepare for emergencies, and avoid debt.</p>
+            <h3>Tips for Saving</h3>
+            <ul>
+                <li>Set specific savings goals</li>
+                <li>Create a savings plan</li>
+                <li>Automate your savings</li>
+                <li>Reduce unnecessary expenses</li>
+            </ul>
+        </section>
+
+        <section id="investing" class="section">
+            <h2>Investing</h2>
+            <p>Investing is the act of allocating resources, usually money, with the expectation of generating an income or profit. It can involve buying assets like stocks, bonds, real estate, or starting a business.</p>
+            <h3>Types of Investments</h3>
+            <ul>
+                <li>Stocks: Ownership in a company</li>
+                <li>Bonds: Loans to a company or government</li>
+                <li>Real Estate: Property investments</li>
+                <li>Mutual Funds: Pooled investments</li>
+            </ul>
+        </section>
+
+        <section id="tax-calculator" class="section">
+            <h2>Tax Calculator</h2>
+            <p>Use this calculator to estimate your annual tax based on your income and tax rate.</p>
+            <form id="tax-form">
+                <label for="income">Annual Income ($):</label>
+                <input type="number" id="income" name="income" required>
+
+                <label for="tax-rate">Tax Rate (%):</label>
+                <input type="number" id="tax-rate" name="tax-rate" required>
+
+                <button type="button" onclick="calculateTax()">Calculate</button>
+            </form>
+            <div id="result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Basic Financial Literacy Resources</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
